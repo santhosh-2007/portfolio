@@ -22,7 +22,7 @@ export default function About() {
       icon: GraduationCap,
       color: "from-purple-500/20 to-indigo-500/10 border-purple-500/30 text-purple-400",
       description:
-        "B.E. Computer Science and Engineering at Rathinam Technical Campus, Coimbatore. Solid foundations in DSA, DBMS, OOP and system architecture.",
+        "B.E. Computer Science and Engineering (2024–2028, Pre-Final Year) at Rathinam Technical Campus, Coimbatore. Solid foundations in DSA, DBMS, OOP and system architecture.",
       badge: "Academic Foundation"
     },
     {
@@ -38,7 +38,7 @@ export default function About() {
       icon: Code,
       color: "from-emerald-500/20 to-teal-500/10 border-emerald-500/30 text-emerald-400",
       description:
-        "Frontend UI/UX with React & Tailwind, backend architecture with Node.js & Express, relational schema design with MySQL, and cloud/DevOps tooling.",
+        "Frontend UI/UX with React & Tailwind CSS, backend runtime with Node, relational database engineering with PostgreSQL, and core OOP with Java.",
       badge: "Core Stack"
     },
     {
@@ -62,7 +62,7 @@ export default function About() {
       icon: Sparkles,
       color: "from-blue-500/20 to-violet-500/10 border-blue-500/30 text-blue-400",
       description:
-        "Dedicated to keeping pace with modern industry standards, exploring AI-assisted development, Docker containerization, and modern JavaScript frameworks.",
+        "Dedicated to continuous skill mastery in React, Node, PostgreSQL, Java and version control with Git and GitHub.",
       badge: "Growth Mindset"
     }
   ];

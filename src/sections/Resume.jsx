@@ -169,21 +169,44 @@ export default function Resume() {
                   <span className="font-semibold text-white">
                     Bachelor of Engineering – Computer Science and Engineering
                   </span>
-                  <span className="text-xs font-mono text-accent-blue">2022 – 2026</span>
+                  <span className="text-xs font-mono text-accent-blue">2024 – 2028</span>
                 </div>
                 <p className="text-xs text-slate-400">
                   Rathinam Technical Campus • Coimbatore, Tamil Nadu
                 </p>
+                <div className="flex items-center gap-2 text-xs font-mono text-emerald-400 pt-1">
+                  <span>● Currently Pursuing (Pre-Final Year)</span>
+                </div>
                 <p className="text-xs text-slate-400 pt-1 font-light">
-                  Core coursework: Data Structures, Algorithms, DBMS, Web Development, Object-Oriented Systems.
+                  Core coursework: Data Structures, Algorithms, Web Technologies, Database Systems, Object-Oriented Systems (Java).
                 </p>
               </div>
             </div>
 
-            {/* Section 2: Experience */}
+            {/* Section 2: Technical Skills */}
             <div className="space-y-3">
               <h4 className="text-xs font-mono uppercase tracking-wider text-accent-blue flex items-center gap-2 font-bold">
-                <Briefcase className="w-4 h-4 text-accent-blue" />
+                <Code className="w-4 h-4 text-accent-blue" />
+                Technical Skills
+              </h4>
+              <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5">
+                <div className="flex flex-wrap gap-2">
+                  {['Java', 'HTML', 'CSS', 'React', 'Tailwind CSS', 'Node', 'PostgreSQL', 'Git', 'GitHub'].map((skill) => (
+                    <span
+                      key={skill}
+                      className="px-3 py-1 rounded-xl text-xs font-mono bg-white/5 border border-white/10 text-slate-200"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Section 3: Experience */}
+            <div className="space-y-3">
+              <h4 className="text-xs font-mono uppercase tracking-wider text-accent-purple-light flex items-center gap-2 font-bold">
+                <Briefcase className="w-4 h-4 text-accent-purple" />
                 Experience &amp; Activities
               </h4>
               <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5 space-y-1">

@@ -33,7 +33,7 @@ endobj
 >>
 endobj
 5 0 obj
-<< /Length 260 >>
+<< /Length 420 >>
 stream
 BT
 /F1 22 Tf
@@ -41,10 +41,16 @@ BT
 (SANTHOSH S - FULL STACK DEVELOPER) Tj
 /F1 12 Tf
 0 -30 Td
-(B.E. Computer Science and Engineering - Rathinam Technical Campus) Tj
+(Email: santhosh2007sm@gmail.com | Portfolio: https://santhosh-s.vercel.app/) Tj
 0 -20 Td
-(Official Portfolio: https://santhosh-s.vercel.app/) Tj
+(GitHub: https://github.com/santhosh-2007 | LinkedIn: https://www.linkedin.com/in/santhosh-s-90581a334/) Tj
+0 -30 Td
+(B.E. Computer Science and Engineering [2024-2028, Pre-Final Year]) Tj
 0 -20 Td
+(Rathinam Technical Campus - Coimbatore, Tamil Nadu) Tj
+0 -30 Td
+(Technical Skills: Java, HTML, CSS, React, Tailwind CSS, Node, PostgreSQL, Git, GitHub) Tj
+0 -30 Td
 (Replace this file with your finalized exported PDF resume in public/resume.pdf) Tj
 ET
 endstream
@@ -63,5 +69,5 @@ trailer
   /Root 1 0 R
 >>
 startxref
-644
+804
 %%EOF

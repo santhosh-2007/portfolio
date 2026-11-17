@@ -64,7 +64,7 @@ export default function FallbackHero3D() {
         transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
         className="absolute -bottom-3 left-6 px-3 py-1 rounded-full text-xs font-mono bg-background-card/90 border border-accent-blue/40 text-accent-blue shadow-glow-blue backdrop-blur-md"
       >
-        Node.js &amp; Cloud
+        Node &amp; PostgreSQL
       </motion.div>
     </div>
   );

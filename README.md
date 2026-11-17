@@ -9,11 +9,11 @@ A production-quality, responsive personal portfolio website built for **Santhosh
 - **Futuristic 3D Hero Scene**: Custom WebGL canvas featuring a multi-layered rotating cyber-core with orbiting rings, floating geometric meshes, an interactive particle starfield, and graceful mouse tilt.
 - **Resilient Fallback Mode**: Automatic detection for non-WebGL environments or users with `prefers-reduced-motion`, falling back to an elegant CSS holographic avatar without breaking layout or performance.
 - **Glassmorphism UI**: Built with custom Tailwind CSS utilities, soft neon glows, backdrop blur filters, and micro-interactions.
-- **Interactive Technology Dashboard**: Categorized skills (Programming, Frontend, Backend, Database, DevOps & Tools, AI) with verified proficiency levels (no artificial percentage numbers).
+- **Interactive Technology Dashboard**: Curated strictly to confirmed technical stack: **Java, HTML, CSS, React, Tailwind CSS, Node, PostgreSQL, Git, and GitHub** with verified proficiency levels.
 - **Interactive 3D Tilt Project Cards**: 5 comprehensive projects with 3D tilt responsiveness, technology badges, contribution breakdowns, and full-detail modals.
-- **Career & Education Timeline**: Modern vertical timeline depicting ongoing roles at Rathinam Technical Campus and B.E. Computer Science foundations.
+- **Career & Education Timeline**: Modern vertical timeline depicting B.E. Computer Science foundations (Batch 2024–2028, Pre-Final Year) and student developer activities at Rathinam Technical Campus.
 - **Interactive Resume & Certifications**: Modal previews for verified credentials and direct download link for `resume.pdf`.
-- **Functional Contact Engine**: Form with client-side validation, spam prevention (honeypot trap), confetti celebration trigger, and direct EmailJS integration.
+- **Functional Contact Engine**: Form with client-side validation, spam prevention (honeypot trap), confetti celebration trigger, and direct transmission to `santhosh2007sm@gmail.com`.
 - **SEO & Accessibility Ready**: Open Graph meta tags, semantic HTML landmarks, responsive typography, sitemap, and robots.txt.
 
 ---

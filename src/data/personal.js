@@ -11,25 +11,25 @@ export const personalData = {
   ],
   typingRoles: [
     "Full Stack Developer",
-    "Frontend & UI/UX Enthusiast",
-    "MERN & React Developer",
-    "Backend & Database Builder",
-    "Problem Solver & Tech Explorer"
+    "React & Tailwind CSS Builder",
+    "Node & PostgreSQL Developer",
+    "Java & Systems Enthusiast",
+    "Problem Solver & Git Explorer"
   ],
   status: "Open to Opportunities",
   location: "Coimbatore, Tamil Nadu, India",
   college: "Rathinam Technical Campus",
   degree: "B.E. Computer Science and Engineering",
-  email: "santhosh.dev.contact@gmail.com", // Placeholder: update with your official email
+  email: "santhosh2007sm@gmail.com",
   socials: {
-    github: "https://github.com/santhosh-s", // Placeholder: update with your GitHub profile
-    linkedin: "https://linkedin.com/in/santhosh-s", // Placeholder: update with your LinkedIn profile
-    email: "mailto:santhosh.dev.contact@gmail.com"
+    github: "https://github.com/santhosh-2007",
+    linkedin: "https://www.linkedin.com/in/santhosh-s-90581a334/",
+    email: "mailto:santhosh2007sm@gmail.com"
   },
   highlights: [
     { label: "Specialization", value: "Full Stack Web" },
-    { label: "Education", value: "B.E. CSE" },
-    { label: "Status", value: "Ready to Innovate" },
-    { label: "Approach", value: "Scalable & Clean" }
+    { label: "Education", value: "B.E. CSE (2024-2028)" },
+    { label: "Status", value: "Pre-Final Year" },
+    { label: "Core Stack", value: "React & Node" }
   ]
 };

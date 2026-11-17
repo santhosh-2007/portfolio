@@ -112,35 +112,40 @@ export default function Contact() {
           {
             from_name: formData.name,
             from_email: formData.email,
+            reply_to: formData.email,
             subject: formData.subject,
             message: formData.message,
             to_name: 'Santhosh S',
+            to_email: 'santhosh2007sm@gmail.com',
           },
           publicKey
         );
 
         setSubmitStatus('success');
-        setStatusMessage('Thank you! Your message has been sent successfully. I will get back to you shortly.');
+        setStatusMessage('Thank you! Your message has been sent directly to santhosh2007sm@gmail.com. I will get back to you shortly.');
         setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
         fireConfetti();
       } catch (err) {
         console.error("EmailJS submission error:", err);
         setSubmitStatus('error');
-        setStatusMessage('Could not transmit message via EmailJS. Please reach out directly to my email address below.');
+        setStatusMessage('Could not transmit message via EmailJS. Please click on my email address below to send directly.');
       } finally {
         setIsSubmitting(false);
       }
     } else {
-      // Demo / development simulation with realistic delay
+      // Demo / development simulation with direct mailto option
       setTimeout(() => {
         setIsSubmitting(false);
         setSubmitStatus('success');
         setStatusMessage(
-          'Message received! (Form submission is configured in demo mode until you add your EmailJS keys in .env).'
+          'Message received! To send directly from your email client right now, click my official email address: santhosh2007sm@gmail.com.'
         );
+        // Also trigger mailto client so it directly reaches the user's mail
+        const mailtoUri = `mailto:santhosh2007sm@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent("From: " + formData.name + " (" + formData.email + ")\n\n" + formData.message)}`;
+        window.open(mailtoUri, '_blank');
         setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
         fireConfetti();
-      }, 1000);
+      }, 800);
     }
   };
 
