@@ -1,0 +1,61 @@
+import {
+  Code2,
+  FileCode,
+  Terminal,
+  Cpu,
+  Layout,
+  Palette,
+  Atom,
+  Sparkles,
+  Server,
+  Network,
+  Binary,
+  Database,
+  GitBranch,
+  Github,
+  Code,
+  Layers,
+  Box,
+  Workflow,
+  Cloud,
+  Boxes,
+  TerminalSquare,
+  Bot,
+  Wand2,
+  Trophy,
+  Medal,
+  Award
+} from 'lucide-react';
+
+export const iconMap = {
+  Code2,
+  FileCode,
+  Terminal,
+  Cpu,
+  Layout,
+  Palette,
+  Atom,
+  Sparkles,
+  Server,
+  Network,
+  Binary,
+  Database,
+  GitBranch,
+  Github,
+  Code,
+  Layers,
+  Box,
+  Workflow,
+  Cloud,
+  Boxes,
+  TerminalSquare,
+  Bot,
+  Wand2,
+  Trophy,
+  Medal,
+  Award
+};
+
+export function getIcon(name) {
+  return iconMap[name] || Code2;
+}
